@@ -7,6 +7,7 @@ import Navbar from './components/layouts/Navbar'
 import Promo from './components/layouts/Promo'
 import Carousels from './components/layouts/Carousels'
 import FindUs from './components/layouts/FindUs'
+import BackToTop from './components/fragments/BackToTop'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
+        <BackToTop />
     </>
   )
 }

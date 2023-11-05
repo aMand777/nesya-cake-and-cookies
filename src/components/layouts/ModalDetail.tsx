@@ -12,7 +12,7 @@ interface ModalDetail {
 
 const ModalDetail: React.FC<ModalDetail> = ({ onHide, title, img, price, ...props }) => {
   return (
-    <Modal {...props} size="md" aria-labelledby="contained-modal-title-vcenter" centered>
+    <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Body>
         <Card.Body className="d-flex flex-column justify-content-center align-items-center">
           <Image src={img} alt={img} width="100%" className="rounded-4 cursor-pointer" />
